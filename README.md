@@ -8,3 +8,12 @@ The ELF(3)/GELF(3) APIs are discussed, as is handling of ar(1) archives.
 The ELF format is discussed to the extent needed to understand the use of the
 ELF(3) library.
 Knowledge of the C programming language is a pre-requisite.
+
+## Dependencies
+
++ unix-like os with a c compiler
++ libelf (version 0.8.13 or later), [source code](https://github.com/WolfgangSt/libelf)
+
+## Documentation
+
+You can read the pdf [libelf by examples](https://atakua.org/old-wp/wp-content/uploads/2015/03/libelf-by-example-20100112.pdf) online.
