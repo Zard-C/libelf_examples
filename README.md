@@ -13,6 +13,7 @@ Knowledge of the C programming language is a pre-requisite.
 ## Dependencies
 
 + unix-like os with a c compiler
++ libbsd 
 + libelf (version 0.8.13 or later), [source code](https://github.com/WolfgangSt/libelf)
 
 ## Documentation
