@@ -9,6 +9,9 @@ target_link_libraries(getting_started elf)
 add_executable(print_elf_header src/print_elf_header.c)
 target_link_libraries(print_elf_header elf bsd)
 
+add_executable(read_header_table src/read_header_table.c)
+target_link_libraries(read_header_table elf bsd)
+
 # install
 install(
 TARGETS 
